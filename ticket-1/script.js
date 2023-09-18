@@ -4,7 +4,7 @@ const addItemButton = document.getElementById("addItemBtn");
 const shoppingList = document.getElementById("shoppingList");
 
 // Add an item to the shopping list
-addItemButton.addEventListener("click", () => {
+addItemButton.addEventListener("click",() => {
   const itemName = itemInput.value.trim();
 
   if (itemName !== "") {
